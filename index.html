@@ -14,280 +14,305 @@
 <body>
   <header class="header">
     <section class="header__logo">
-     <img src="/assets/image/Logo2.png" alt="Logo2">
+      <img src="/assets/image/Logo2.png" alt="Logo2">
     </section>
     <div class="wrapper">
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
-         <li class="navigation__item"><a href class="navigation__link">Visiting</a></li>
-         <li class="navigation__item"><a href class="navigation__link">Explore</a></li>
-         <li class="navigation__item" ><a href class="navigation__link">Video</a></li>
-         <li class="navigation__item" ><a href class="navigation__link">Gallery</a></li>
-         <li class="navigation__item"><a href class="navigation__link">Tickets</a></li>
-         <li class="navigation__item"><a href class="navigation__link">Contacts</a></li>
-         </ul>
-        </nav>
+          <li class="navigation__item"><a href class="navigation__link">Visiting</a></li>
+          <li class="navigation__item"><a href class="navigation__link">Explore</a></li>
+          <li class="navigation__item"><a href class="navigation__link">Video</a></li>
+          <li class="navigation__item"><a href class="navigation__link">Gallery</a></li>
+          <li class="navigation__item"><a href class="navigation__link">Tickets</a></li>
+          <li class="navigation__item"><a href class="navigation__link">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main>
-     <div class="monalisa">
-      <img src="/assets/image/monalisa1.svg" alt="monalisa">
-    <div>
-    <section class="welcome">
-      <div class="welcome__description">
-        <h2>WELCOME TO THE LOUVRE</h2>
-        <p class="welcome__description">From the castle to the muzeum</p>
-        <button name="welcome__descrition--button">Discover the Louvre</button>
-      </div>
-    </section>
-      <section class="welcome__navigation">
-          <span > 01|05 </span>
-          <dl class="welcome__navigation__navigation">
-            <dd class="welcome__navigation__item">
-            <img src="/assets/image/header square.svg" alt="square"></dd>
-            <dd class="welcome__navigation__item">  
-            <img src="/assets/image/header square.svg" alt="square"></dd>
-            <dd class="welcome__navigation__item"> 
-            <img src="/assets/image/header square.svg" alt="square"></dd>
-            <dd class="welcome__navigation__item"> 
-            <img src="/assets/image/header square.svg" alt="square"></dd>
-            <dd class="welcome__navigation__item"> 
-            <img src="/assets/image/header square.svg" alt="square"></dd> 
-          </dl>
-            <dl class="arrow__navigation__navigation">
-              <dd class="arrow__navigation__item">
-          <img src="/assets/image/arrow.svg" alt="arrow">
-              </dd>
-          <dd class="arrow__navigation__item">
-          <img src="/assets/image/arrow2.svg" alt="arrow2">
-          </dd>
-          </dl>
+    <section class="monalisa">
+      <img class="monalisa__backround-image" src="/assets/image/monalisa1.svg" alt="monalisa">
+      <div class="monalisa__welcome welcome">
+        <div class="welcome__description description">
+          <h2 class="description__title">WELCOME TO THE LOUVRE</h2>
+          <p class="description__text">From the castle to the muzeum</p>
+          <button name="descrition__button">Discover the Louvre</button>
         </div>
       </div>
-    </section>
-    <h2>Virtual tour</h2>
-    <section class="palace">
-      <div class="palace__image">
-    <img src="/assets/image/Rectangle.svg" alt="rectangle"><br>
-    <img src="/assets/image/palace.svg" alt="palace"><br>
-    </div>
-    <div class="palace__navigation">
-    <a
-      href class ="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">Royal
-      palace</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"></br>
-
-    
-    <a
-      href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">Google
-      Street Panorama View</a>
+      <div class="monalisa__pagination pagination">
+        <span> 01|05 </span>
+        <ul class="pagination__list">
+          <li class="pagination__item">
+            <img src="/assets/image/header square.svg" alt="square">
+          </li>
+          <li class="pagination__item">
+            <img src="/assets/image/header square.svg" alt="square">
+          </li>
+          <li class="pagination__item">
+            <img src="/assets/image/header square.svg" alt="square">
+          </li>
+          <li class="pagination__item">
+            <img src="/assets/image/header square.svg" alt="square">
+          </li>
+          <li class="pagination__item">
+            <img src="/assets/image/header square.svg" alt="square">
+          </li>
+        </ul>
+        <div class="pagination__controls">
+          <div class="pagination__control pagination__control_left">
+            <img src="/assets/image/arrow.svg" alt="arrow">
+          </div>
+          <div class="pagination__control pagination__control_right">
+            <img src="/assets/image/arrow2.svg" alt="arrow2">
+          </div>
+        </div>
       </div>
+
+    </section>
+    <section class="virtual-tour">
+      <h2 class="virtual-tour__header">Virtual tour</h2>
+      <hr>
+      <ul class="virtual-tour__card-list card-list">
+        <li class="card-list__item item">
+          <!-- <div class="item__image">
+            <img src="/assets/image/Rectangle.svg" alt="rectangle"><br>
+            <img src="/assets/image/palace.svg" alt="palace"><br>
+          </div> -->
+          <div class="item__description">
+            <a
+              href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">Royal
+              palace</a><br>
+            <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"></br>
+            <a
+              href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">360°
+              Virtual Tour</a><br>
+            <a
+              href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815">Google
+              Street Panorama View</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+
+    <section class="denonwing">
+      <img src="/assets/image/denon wing.png" alt="denon wing"><br>
+      <div class="denonwing__navigation">
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">Denon
+          wing</a><br>
+        <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">360°
+          Virtual Tour</a><br>
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">Google
+          Street Panorama View</a><br>
+      </div>
+
+    </section>
+    <section class="colonnade">
+      <img src="/assets/image/colonnade.png" alt="colonnade"><br>
+      <div class="colonnade__navigation">
+        <a
+          href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">Colonnade
+          Perrault</a><br>
+        <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
+        <a
+          href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">360°
+          Virtual Tour</a><br>
+        <a
+          href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">Google
+          Street Panorama View</a><br>
+      </div>
+    </section>
+    <section class="greekhall">
+      <img src="/assets/image/greek hall.png" alt="greekhall"><br>
+      <div class="greekhall__navigation">
+        <a
+          href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">Greek
+          hall</a><br>
+        <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
+        <a
+          href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">360°
+          Virtual Tour</a><br>
+        <a
+          href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">Google
+          Street Panorama View</a><br>
+      </div>
+    </section>
+    <section class="mona">
+      <img src="/assets/image/mona.png" alt="mona"><br>
+      <div class="mona__navigation">
+        <a
+          href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">Mona
+          Lisa</a><br>
+        <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
+        <a
+          href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">360°
+          Virtual Tour</a><br>
+        <a
+          href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">Google
+          Street Panorama View</a><br>
+      </div>
+    </section>
+    <section class="nightpalace">
+      <img src="/assets/image/night palace.png" alt="nightpalace"><br>
+      <div class="nightpalace__navigation">
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">Night
+          palace</a><br>
+        <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">360°
+          Virtual Tour</a><br>
+        <a
+          href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">Google
+          Street Panorama View</a><br>
+      </div>
+    </section>
+    <section class="picture-explore">
+      <h3>Picture explore</h3>
+      <img src="/assets/image/Rectangle.svg" alt="rectangle"><br>
+      <article class="pictureexplore__text">
+        Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.<br>
+        It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in
+        the
+        19th century.<br>
+      </article>
+      <img src="/assets/image/Lasmeninas.png" alt="Lasmeninas"><br>
+    </section>
+    <section class="videos">
+      <h3> Video journey </h3><br>
+      <article class="videojourney__text">Enter and visit one of the most famous museums in the world and enjoy
+        masterpieces such as Mona Lisa or Hammurabi's Code</article><br>
+      <ul>
+        <li>
+          <video controls poster="/assets/image/Video poster 1.png" width="1365">
+            <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/webm">
+          </video>
+        </li>
+      </ul>
+
+      <video controls poster="/assets/image/Video poster 1.png" width="1365">
+        <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/webm">
+      </video>
+
+      <video controls poster="assets/image/Video poster 2.png">
+        <source src="https://www.youtube.com/watch?v=Vi5D6FKhRmo" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=Vi5D6FKhRmo" type="video/webm">
+      </video>
+
+      <video controls poster="assets/image/Video poster3.png">
+        <source src="https://www.youtube.com/watch?v=NOhDysLnTvY" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=NOhDysLnTvY" type="video/webm">
+      </video>
+
+      <video controls poster="/assets/image/Video poster4.png">
+        <source src="https://www.youtube.com/watch?v=2OR0OCr6uRE" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=2OR0OCr6uRE" type="video/webm">
+      </video><br>
+    </section>
+    <div class="video__pagination">
+      <dl class="video__navigation__navigation">
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Vector2.svg" alt="vector2">
+        </dd>
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
+        </dd>
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
+        </dd>
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
+        </dd>
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
+        </dd>
+        <dd class="video__navigation__item">
+          <img src="/assets/image/Vector3.svg" alt="vector3">
+        </dd>
+      </dl>
+      <section class="art-gallery">
+        <h2>Art Gallery</h2>
+        <img src="/assets/image/galery1.png" alt="galery1">
+        <img src="/assets/image/galery2.png" alt="galery2">
+        <img src="/assets/image/galery3.png" alt="galery3">
+        <img src="/assets/image/galery4.png" alt="galery4">
+        <img src="/assets/image/galery5.png" alt="galery5">
+        <img src="/assets/image/galery6.png" alt="galery6">
+        <img src="/assets/image/galery7.png" alt="galery7">
+        <img src="/assets/image/galery8.png" alt="galery8">
+        <img src="/assets/image/galery9.png" alt="galery9">
+        <img src="/assets/image/galery10.png" alt="galery10">
+        <img src="/assets/image/galery11.png" alt="galery11">
+        <img src="/assets/image/galery12.png" alt="galery12">
       </section>
-
-     <section class="denonwing">
-    <img src="/assets/image/denon wing.png" alt="denon wing"><br>
-    <div class="denonwing__navigation">
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">Denon
-      wing</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500">Google
-      Street Panorama View</a><br>
-      </div>
-
-</section>
-<section class="colonnade">
-    <img src="/assets/image/colonnade.png" alt="colonnade"><br>
-    <div class="colonnade__navigation">
-    <a
-      href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">Colonnade
-      Perrault</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
-    <a
-      href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120">Google
-      Street Panorama View</a><br>
-      </div>
-</section>
-<section class="greekhall">
-   <img src="/assets/image/greek hall.png" alt="greekhall"><br>
-   <div class="greekhall__navigation">
-    <a
-      href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">Greek
-      hall</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
-    <a
-      href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736">Google
-      Street Panorama View</a><br>
-   </div>
-</section>
-<section class="mona">
-    <img src="/assets/image/mona.png" alt="mona"><br>
-    <div class="mona__navigation">
-    <a
-      href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">Mona
-      Lisa</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
-    <a
-      href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120">Google
-      Street Panorama View</a><br>
-    </div>
+      <section class="tickets">
+        <h2>BUY TICKETS</h2>
+        <img src="/assets/image/Rectangle8.svg" alt="rectangle8">
+        <div class="ticket">
+          <img src="/assets/image/picturebt.png" alt="gpicuebt">
+          <div class="ticket-type">
+            <h3>Ticket Type</h3>
+            <input type="checkbox" name="exhibition" value="Permanent exhibition" /> Permanent exhibition</br>
+            <input type="checkbox" name="exhibition" value="Temporary exhibition" /> Temporary exhibition</br>
+            <input type="checkbox" name="exhibition" value="Combined Admission" /> Combined Admission</br>
+          </div>
+          <div class="ticket-amount">
+            <img src="/assets/image/Amount.png" alt="Amount">
+          </div>
+        </div>
       </section>
-<section class="nightpalace">
-    <img src="/assets/image/night palace.png" alt="nightpalace"><br>
-    <div class="nightpalace__navigation">
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">Night
-      palace</a><br>
-      <img src="/assets/image/Rectangle small.svg" alt="rectanglesmall"><br>
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">360°
-      Virtual Tour</a><br>
-    <a
-      href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652">Google
-      Street Panorama View</a><br>
-    </div>
-</section>
-<section class="pictureexplore">
-    <h3>Picture explore</h3>
-    <img src="/assets/image/Rectangle.svg" alt="rectangle"><br>
-    <article class="pictureexplore__text">
-      Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.<br>
-      It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the
-      19th century.<br>
-    </article>
-    <img src="/assets/image/Lasmeninas.png" alt="Lasmeninas"><br>
-</section>
-<section class="video">
-    <h3> Video journey </h3><br>
-    <article class="videojourney__text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</article><br>
-    
-    <video controls poster="/assets/image/Video poster 1.png" width="1365">
-      <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/mp4">
-      <source src="https://www.youtube.com/watch?v=aWmJ5DgyWPI" type="video/webm">
-    </video>
-
-    <video controls poster="assets/image/Video poster 2.png">
-      <source src="https://www.youtube.com/watch?v=Vi5D6FKhRmo" type="video/mp4">
-      <source src="https://www.youtube.com/watch?v=Vi5D6FKhRmo" type="video/webm">
-    </video>
-
-    <video controls poster="assets/image/Video poster3.png">
-      <source src="https://www.youtube.com/watch?v=NOhDysLnTvY" type="video/mp4">
-      <source src="https://www.youtube.com/watch?v=NOhDysLnTvY" type="video/webm">
-    </video>
-
-    <video controls poster="/assets/image/Video poster4.png">
-      <source src="https://www.youtube.com/watch?v=2OR0OCr6uRE" type="video/mp4">
-      <source src="https://www.youtube.com/watch?v=2OR0OCr6uRE" type="video/webm">
-    </video><br>
-</section>
-<div class="video__navigation">
-<dl class="video__navigation__navigation">
-  <dd class ="video__navigation__item">
-    <img src="/assets/image/Vector2.svg" alt="vector2">
-  </dd>
-    <dd class ="video__navigation__item">
-    <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
-    </dd>
-    <dd class ="video__navigation__item">
-    <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
-    </dd>
-    <dd class ="video__navigation__item">
-    <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
-    </dd>
-    <dd class ="video__navigation__item">
-    <img src="/assets/image/Ellipse 4.svg" alt="ellipse">
-    </dd>
-    <dd class ="video__navigation__item">
-    <img src="/assets/image/Vector3.svg" alt="vector3">
-    </dd>
-</dl>
-<section class="artgallery">
-    <h4>Art Gallery</h4>
-    <img src="/assets/image/galery1.png" alt="galery1">
-    <img src="/assets/image/galery2.png" alt="galery2">
-    <img src="/assets/image/galery3.png" alt="galery3">
-    <img src="/assets/image/galery4.png" alt="galery4">
-    <img src="/assets/image/galery5.png" alt="galery5">
-    <img src="/assets/image/galery6.png" alt="galery6">
-    <img src="/assets/image/galery7.png" alt="galery7">
-    <img src="/assets/image/galery8.png" alt="galery8">
-    <img src="/assets/image/galery9.png" alt="galery9">
-    <img src="/assets/image/galery10.png" alt="galery10">
-    <img src="/assets/image/galery11.png" alt="galery11">
-    <img src="/assets/image/galery12.png" alt="galery12">
-    </section>
-<section class="tickets">
-    <h5>BUY TICKETS</h5>
-    <img src="/assets/image/Rectangle8.svg" alt="rectangle8">
-    <section class="tickettype"></section>
-    <div class="ticket">
-    <h6>Ticket Type</h6>
-    <input type="checkbox" name="exhibition"
-    value="Permanent exhibition" /> Permanent exhibition</br>
-    <input type="checkbox" name="exhibition"
-    value="Temporary exhibition" /> Temporary exhibition</br>
-    <input type="checkbox" name="exhibition"
-    value="Combined Admission" /> Combined Admission</br>
-    </div>
-    <img src="/assets/image/picturebt.png" alt="gpicuebt" >
-    <section class="tickettype"></section>
-    
-    <img src="/assets/image/Amount.png" alt="Amount">
-    <img src="/assets/image/parallax.png" alt="parallax">
-   </section>
-    <section class="contacts">
-    <h6>Contacts</h6><br>
-      <img src="/assets/image/Rectangle contacts.svg" alt="Rectanglecontacts">
-    </section>
-    <div class="address">
-      <p class="contacts">Palais Royal<br> 
-        Musee du Louvre</p>
-        <p class="address"> address: 75001 Paris, France<br> </p> 
-        <p class= "phone">phone: +33(0) 1 40 20 50 50</p><br>
-        <p class="mail">mail:info@louvre.fr</p><br>
-    </div>
-<footer>
-      <img src="/assets/image/Logo2.png" alt="Logo2">
-      <nav class="footer__navigation navigation">
-        <dl class="navigation__list">
-         <dd class="navigation__item"><a href class="navigation__link">Visiting</a></dd>
-         <dd class="navigation__item"><a href class="navigation__link">Explore</a></dd>
-         <dd class="navigation__item" ><a href class="navigation__link">Video</a></dd>
-         <dd class="navigation__item" ><a href class="navigation__link">Gallery</a></dd>
-         <dd class="navigation__item"><a href class="navigation__link">Tickets</a></dd>
-         <dd class="navigation__item"><a href class="navigation__link">Contacts</a></dd>
-         </dl>
-      </nav>  
-      <nav class="social">
-        <img src="/assets/image/Youtube.png" alt="Youtube">
-        <img src="/assets/image/Instagram.png" alt="Instagram">
-        <img src="/assets/image/Facebook.png" alt="Facebook">
-        <img src="/assets/image/Twitter.png" alt="Twitter">
-        <img src="/assets/image/Pinterest.png" alt="Pinterest">
-      </nav>
-      <img src="/assets/image/Rectangle footer.svg" alt="Rectangle footer">
-      
-      <div class="last string">
-        <img src="/assets/image/last string.png" alt="last string">
+      <section class="just-image"> <img src="/assets/image/parallax.png" alt="parallax">
+      </section>
+      <section class="contacts">
+        <h2>Contacts</h2><br>
+        <img src="/assets/image/Rectangle contacts.svg" alt="Rectanglecontacts">
+      </section>
+      <div class="contacts__information information">
+        <p class="information__place-name">Palais Royal<br>
+          Musee du Louvre</p>
+        <p class="information__address"> address: 75001 Paris, France<br> </p>
+        <p class="information__phone">phone: +33(0) 1 40 20 50 50</p><br>
+        <p class="information__mail">mail:info@louvre.fr</p><br>
       </div>
-    </footer>
+  </main>
+  <footer>
+    <img src="/assets/image/Logo2.png" alt="Logo2">
+    <nav class="footer__navigation navigation">
+      <dl class="navigation__list">
+        <dd class="navigation__item"><a href class="navigation__link">Visiting</a></dd>
+        <dd class="navigation__item"><a href class="navigation__link">Explore</a></dd>
+        <dd class="navigation__item"><a href class="navigation__link">Video</a></dd>
+        <dd class="navigation__item"><a href class="navigation__link">Gallery</a></dd>
+        <dd class="navigation__item"><a href class="navigation__link">Tickets</a></dd>
+        <dd class="navigation__item"><a href class="navigation__link">Contacts</a></dd>
+      </dl>
+    </nav>
+    <nav class="social">
+      <ul>
+        <li>
+          <img src="/assets/image/Youtube.png" alt="Youtube">
+        </li>
+      </ul>
+
+      <img src="/assets/image/Instagram.png" alt="Instagram">
+      <img src="/assets/image/Facebook.png" alt="Facebook">
+      <img src="/assets/image/Twitter.png" alt="Twitter">
+      <img src="/assets/image/Pinterest.png" alt="Pinterest">
+    </nav>
+    <img src="/assets/image/Rectangle footer.svg" alt="Rectangle footer">
+
+    <div class="last string">
+      <img src="/assets/image/last string.png" alt="last string">
+    </div>
+
+  </footer>
+
 
 
 
