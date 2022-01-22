@@ -22,17 +22,25 @@
     line-height: 23px;
     }
 .navigation__item {
-    display:flex
-   
+    display:inline-grid;
+    grid-template-columns: [start] 40px [line2] 40px [line3] 40px [end];
       
-    
 }
 .navigation__link {
     color:white;
     text-decoration: none;
-    
-    
-    
-
-
 }
+.monalisa {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
+}
+    
+    
+    
+
+
+
