@@ -7,8 +7,7 @@ html, body{
     background-color: black;
     width: 1920px;
     height: 150px;
-    left: -240px;
-    top: 0px;
+   
 }
 .header .header__logo {
     width: 199px;
@@ -22,6 +21,7 @@ html, body{
     line-height: 31px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    background-color: black;
 }
  .header .header__wrapper {
   display:flex;
@@ -30,20 +30,13 @@ html, body{
   left: 665px;
   top: 62px;
  }
- .header .header__wrapper .header__navigation navigation {
-     
- }
- .header .header__navigation navigation .navigation list {
-     display:flex;
- }
  .header .navigation__list {
      display: flex; 
      margin-left: 466px;
-    
-
+     background-color: black;
  }
 .header .navigation__list .navigation__link {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     display: flex;
     margin-left: 55px;
@@ -56,9 +49,77 @@ html, body{
     line-height: 26px;
     letter-spacing: 2px;
     align-items: center;
+    background-color: black;
+}
+.monalisa {
+display: flex;
+flex-flow:column wrap;
+align-items: center;
+background-color: black;
 }
 
+.monalisa .monalisa__background-image {
+    width: 1000px;
+    height: 750px;
+    margin-top: 62px;
+    margin-right: 240px;
+    margin-bottom: 60px;
+    margin-left: 680px;
+    background-color: black;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(1.jpg);
+}
+.monalisa  .welcome__description  {
+    display: flex;
+    flex-flow: column;
+    color:white
+    background-color black;
     
+}
+.monalisa .monalisa__pagination  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    width: 600px;
+    height: 120px;
+   
+
+}
+.monalisa__pagination .pagination__list {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome__description .description__title {
+    margin: 0px;
+    color: white;
+}
+.welcome__description .description__text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+ .description__button {
+    width: 360px;
+    height: 75px;
+    width: 360;
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+    width: 332px;
+    height: 75px;
+    left: 64px;
+    position: center;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    align-items: flex-start;
+
+}
 
     
     
