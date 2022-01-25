@@ -1,0 +1,60 @@
+.monalisa__welcome {
+    width: 598px;
+    left: 0px;
+    top: 150px;
+    height: 388px;
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    margin:182px 1087px 272px 240px;
+}
+.monalisa__welcome .description__title {
+    width: 593px;
+    height: 180px;
+    font-family: Forum;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 180px;
+    margin:0px;
+}
+.monalisa__welcome .description__text {
+    width: 445px;
+    height: 33px;
+    top: 205px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    height: 33px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-right: 153px;
+}
+.monalisa__welcome .description__button {
+    width: 360px;
+    height: 75px;
+    background: #710707;
+    border-radius: 10px;
+    height: 75px;
+    left: 64px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    width: 232px;
+    margin:0px;
+    border:none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: inherit;
+    padding-left: 64px;
+    padding-right: 64px;
+}
