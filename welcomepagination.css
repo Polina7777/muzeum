@@ -1,0 +1,38 @@
+.monalisa__pagination {
+    width: 600px;
+    height: 120px;
+    right: 0px;
+    bottom: 0px;
+    display: inline-flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+} 
+.monalisa__pagination .pagination__text {
+    font-size: 22px;
+    line-height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    width: 25px;
+    left: 474px;
+    top: 730px;
+    height: 40px;
+    margin-right: 55px;
+    margin-left: 74px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.monalisa__pagination .pagination__controls {
+    width: 80px;
+    height: 8px;
+    left: 845px;
+    top: 746px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 75px;
+    align-items: center;
+}
