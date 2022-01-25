@@ -1,0 +1,61 @@
+.card-list__item {
+    width: 440px;
+    height: 285px;
+    margin-top: 75px;
+    margin-right: 60px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-list__item .item__description .description__name {
+    color: black;
+    text-decoration: none;
+    width: 252px;
+    left: 0px;
+    top: 310px;
+    font-family: Forum;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    height: 35px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+.card-list__item .description__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.card-list__item  .description__link-first {
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+
+} 
+.card-list__item .description__link-second {
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
