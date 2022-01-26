@@ -1,0 +1,14 @@
+.video__pagination {
+    width: 200px;
+    height: 12px;
+    left: 620px;
+    top: 1234px;
+   
+}
+.video__pagination .video__navigation  {
+    display:flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+}   
