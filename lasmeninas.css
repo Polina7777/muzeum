@@ -1,0 +1,73 @@
+.picture-explore {
+    width: 1440px;
+    height: 715px;
+    left: 0px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: black;
+    gap: 0px;
+   flex-wrap: wrap;
+   margin-top: 75px;
+   margin-right: 240px;
+   margin-bottom: 75px;
+   margin-left: 240px;
+
+}
+.picture-explore .explore__title {
+    width: 660px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: contents;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.picture-explore .explore__rectangle-image {
+    width: 660px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    margin-top: 25px;
+}
+.picture-explore .pictureexplore__text {
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 193px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 193px;
+    margin-bottom: 241px;
+    justify-content: center;
+}
+.picture-explore .pictureexplore__text .article__first {
+    margin-bottom: 25px;
+}
+.picture-explore .pictureexplore__text .article__second {
+    margin-bottom: 25px;
+}
+.picture-explore .lasmeninas__picture {
+    width: 720px;
+    height: 700px;
+    left: 720px;
+    top: 15px;
+   
+   
+}
