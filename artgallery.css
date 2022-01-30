@@ -1,0 +1,28 @@
+.art-gallery {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 1440px;
+    height: 2125px;
+    left: 0px;
+    top: 75px;
+}
+.art-gallery .image__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+.art-gallery .artgallery__title {
+    width: 518px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    
+}
