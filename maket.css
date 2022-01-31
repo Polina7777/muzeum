@@ -1,0 +1,92 @@
+.body {
+    background-color: black;
+    box-sizing: border-box;
+}
+.header {
+    display:flex
+    min-height 100%;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 150px;
+   margin:auto;
+    max-width: 1440px;
+
+}
+.wrapper {
+    max-width: 1440px;
+    margin:0px auto;
+   
+  
+}
+.monalisa {
+    height: 810px;
+    background-color: blueviolet;
+    max-width: 1440px;
+    margin: auto;
+}
+.background-color__virtual-tour {
+    background-color: white;
+    padding:75px 0px;
+}
+.virtual-tour {
+    max-width: 1440px;
+    height: 1116px;
+    background-color:blueviolet;
+    margin: 0px auto;
+}
+.picture-explore {
+    height: 865px;
+    max-width: 1440px;
+    background-color: blueviolet;
+    margin: 0px auto;
+}
+.background-color__videos {
+    background-color: white;
+    padding: 75px 0px;
+}
+.videos {
+    height: 1246px;
+    max-width: 1440px;
+    background-color: blueviolet;
+    margin: 0px auto; 
+}
+.art-gallery {
+ height: 2125px;
+ max-width: 1440px;
+ background-color: blueviolet;
+ margin:0px auto ;
+}
+.background-color__tickets {
+    background-color: white;
+    padding: 75px 0px;
+}
+.tickets {
+    height: 743px;
+    max-width: 1440px;
+    background-color: blueviolet;
+    margin: 0px auto;
+}
+.just-image {
+    display: flex;
+    flex-direction: column;
+}
+.just-image__image {
+    max-width: 100%;
+    height: auto;
+}
+.background-color__contacts {
+    background-color: white;
+    padding: 75px 0px;
+}
+.contacts {
+    height: 813px;
+    max-width: 1440px;
+    background-color: blueviolet;
+    margin: 0px auto;
+}
+.footer {
+    height: 392px;
+    max-width: 1440px;
+    background-color:blueviolet ;
+    margin: 0px auto;
+}
