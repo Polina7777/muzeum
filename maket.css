@@ -232,11 +232,48 @@
     text-decoration: none;
 }
 /*VIRTUAL-TOUR*/
+
+/*PICTURE-EXPLORE*/
 .picture-explore {
     height: 865px;
-  
 }
+.picture-explore {
+ 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
 
+    
+    }
+     .picture-explore .explore__title {
+        margin-bottom: 103px;
+        border-bottom: 4px darkred solid;
+        
+        font-size: 66px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    
+    }
+    .picture-explore .pictureexplore__text {
+        display: flex;
+        max-width: 660px;
+        flex-wrap: wrap;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+     .picture-explore .pictureexplore__text .article__first {
+     
+    }
+    .picture-explore .pictureexplore__text .article__second {
+ 
+    } 
+
+/*PICTURE-EXPLORE*/
 .videos {
     height: 1246px;
 
