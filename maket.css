@@ -1,92 +1,259 @@
 .body {
-    background-color: black;
     box-sizing: border-box;
 }
 .header {
-    display:flex
-    min-height 100%;
-    flex-direction: column;
-    background-color: blueviolet;
     height: 150px;
-   margin:auto;
-    max-width: 1440px;
-
-}
-.wrapper {
-    max-width: 1440px;
-    margin:0px auto;
-   
   
 }
-.monalisa {
-    height: 810px;
-    background-color: blueviolet;
-    max-width: 1440px;
-    margin: auto;
+.wrapper {
+    width: 100%;
+   
 }
-.background-color__virtual-tour {
+.wrapper_white {
     background-color: white;
-    padding:75px 0px;
+    
 }
-.virtual-tour {
+.wrapper_black {
+    background-color: black;
+
+}
+.wrapper_image {
+    background-image: url(/assets/image/parallax.png);
+
+}
+.section-container {
     max-width: 1440px;
-    height: 1116px;
-    background-color:blueviolet;
-    margin: 0px auto;
+    margin: 0 auto;
+    width: 100%;
+    padding: 75px 10px;
+    position: relative;
+} 
+/* HEADER */
+.section-container.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: black;
 }
+
+ .section-container.header .header__wrapper {
+  display:flex;
+ }
+
+ .section-container.header .navigation__list {
+     display: flex; 
+     gap: 55px;
+     padding: 0px;
+     background-color: black;
+     font-family: serif;
+ }
+
+.section-container.header .navigation__list .navigation__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    background-color: black;
+}
+/* HEADER */
+
+/* MONALISA */
+
+.section-container.monalisa {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.monalisa .monalisa__background-image {
+    background-image: url(/assets/image/monalisa1.svg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+    background-position: right;
+}
+.monalisa__description{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 272px;
+    color:white;
+   
+    
+
+}
+.description .description__title {
+  
+    font-family: Forum;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin:0px;
+    margin-bottom: 25px;
+}
+.description .description__text {
+
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 75px;
+    
+}
+.description .description__button {
+ 
+    background: #710707;
+    border-radius: 10px;
+    
+   
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+   
+    border:none;
+    padding:32px 64px;
+}
+.monalisa__pagination {
+    position: relative;
+    align-self: end;
+    display:flex;
+    color: white;
+    align-items: center;
+    background-color: black;
+} 
+.monalisa__pagination .pagination__text {
+    font-size: 22px;
+    line-height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    width: 25px;
+    left: 474px;
+    top: 730px;
+    height: 40px;
+    margin-right: 55px;
+    margin-left: 74px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.monalisa__pagination .pagination__controls {
+  
+    width: 80px;
+    height: 8px;
+    left: 845px;
+    top: 746px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 75px;
+    align-items: center;
+}
+/* MONALISA */
+
+/*VIRTYAL-TOUR*/
+.section-container.virtual-tour {
+    display: flex;
+    height: 1116px;
+}
+.virtual-tour__header {
+    position: absolute;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+.virtual-tour__card-list {
+    display: flex;
+    flex-flow: wrap;
+   
+    justify-content: space-between;
+    align-items: end;
+   
+}
+.card-list__item {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-list__item .item__image {
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+
+}
+.card-list__item .item__description .description__name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   
+}
+.card-list__item .description__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.card-list__item  .description__link-first {
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+
+} 
+.card-list__item .description__link-second {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+/*VIRTUAL-TOUR*/
 .picture-explore {
     height: 865px;
-    max-width: 1440px;
-    background-color: blueviolet;
-    margin: 0px auto;
+  
 }
-.background-color__videos {
-    background-color: white;
-    padding: 75px 0px;
-}
+
 .videos {
     height: 1246px;
-    max-width: 1440px;
-    background-color: blueviolet;
-    margin: 0px auto; 
+
 }
 .art-gallery {
  height: 2125px;
- max-width: 1440px;
- background-color: blueviolet;
- margin:0px auto ;
+
 }
-.background-color__tickets {
-    background-color: white;
-    padding: 75px 0px;
-}
+
 .tickets {
     height: 743px;
-    max-width: 1440px;
-    background-color: blueviolet;
-    margin: 0px auto;
+  
 }
-.just-image {
-    display: flex;
-    flex-direction: column;
-}
-.just-image__image {
-    max-width: 100%;
-    height: auto;
-}
-.background-color__contacts {
-    background-color: white;
-    padding: 75px 0px;
-}
+
 .contacts {
     height: 813px;
-    max-width: 1440px;
-    background-color: blueviolet;
-    margin: 0px auto;
 }
 .footer {
     height: 392px;
-    max-width: 1440px;
-    background-color:blueviolet ;
-    margin: 0px auto;
 }
