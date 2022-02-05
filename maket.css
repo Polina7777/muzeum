@@ -1,3 +1,8 @@
+h1,h2,h3,h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
 .body {
     box-sizing: border-box;
 }
@@ -167,33 +172,34 @@
 /*VIRTYAL-TOUR*/
 .section-container.virtual-tour {
     display: flex;
-    height: 1116px;
+    flex-direction: column;
 }
 .virtual-tour__header {
-    position: absolute;
+    
     font-size: 80px;
     line-height: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #9D8665;
+    border-bottom: 4px darkred solid;
 }
 .virtual-tour__card-list {
     display: flex;
     flex-flow: wrap;
-   
-    justify-content: space-between;
-    align-items: end;
+   margin-top: 75px;
+   gap: 20px;
    
 }
 .card-list__item {
-    width: calc(100%/3);
+  
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    flex:1;
+    flex-basis: 30%;
 }
 .card-list__item .item__image {
     width: 100%;
-    max-width: 440px;
+    
     height: auto;
 
 }
@@ -235,21 +241,15 @@
 
 /*PICTURE-EXPLORE*/
 .picture-explore {
-    height: 865px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
 }
-.picture-explore {
- 
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-
-    
-    }
      .picture-explore .explore__title {
-        margin-bottom: 103px;
+
         border-bottom: 4px darkred solid;
         
-        font-size: 66px;
+        font-size: 80px;
         line-height: 90px;
         letter-spacing: 5px;
         text-transform: uppercase;
@@ -257,22 +257,34 @@
         
     
     }
+    .picture-explore .picture-explore__content {
+        
+    }
     .picture-explore .pictureexplore__text {
-        display: flex;
+        
         max-width: 660px;
-        flex-wrap: wrap;
         font-weight: 300;
         font-size: 22px;
         line-height: 38px;
         color: #FFFFFF;
     }
      .picture-explore .pictureexplore__text .article__first {
-     
+     margin-bottom: 25px;
+   
     }
     .picture-explore .pictureexplore__text .article__second {
- 
+ margin-bottom: 25px;
     } 
-
+.picture-explore .explore__image {
+   
+    
+ }
+ .picture-explore .lasmeninas__picture {
+     
+   
+    max-width: 720px;
+    max-height: 700px;
+ }
 /*PICTURE-EXPLORE*/
 .videos {
     height: 1246px;
