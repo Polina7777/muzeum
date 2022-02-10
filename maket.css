@@ -285,23 +285,57 @@ h1,h2,h3,h4 {
 /*VIDEO-JOURNEY*/
 
 
-.videos {
+.section-container videos {
 
 }
+ .video-journey__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.video-journey__title {
+
+    margin-right: 115px;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+.video-journey__article {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;   
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.video__item  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    list-style-type: none;
+   
+}
+
 .video__pagination {
-    width: 200px;
-    height: 12px;
-    left: 620px;
-    top: 1234px;
+    display: flex;
+    justify-content: space-around;
+   
    
 }
 .video__pagination .video__navigation  {
-    display:flex;
-    flex-direction: inherit;
-    justify-content: space-between;
+    display: flex;
     list-style-type: none;
     margin: 0px;
+    padding: 0px;
+  
 }   
+.video__pagination .navigation__item {
+  margin-right: 20px;
+  margin-top: 40px;
+}
 
 /*VIDEO-JOURNEY*/
 .art-gallery {
