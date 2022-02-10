@@ -257,9 +257,6 @@ h1,h2,h3,h4 {
         
     
     }
-    .picture-explore .picture-explore__content {
-        
-    }
     .picture-explore .pictureexplore__text {
         
         max-width: 660px;
@@ -273,12 +270,9 @@ h1,h2,h3,h4 {
    
     }
     .picture-explore .pictureexplore__text .article__second {
- margin-bottom: 25px;
+      margin-bottom: 25px;
     } 
-.picture-explore .explore__image {
-   
-    
- }
+
  .picture-explore .lasmeninas__picture {
      
    
@@ -286,10 +280,30 @@ h1,h2,h3,h4 {
     max-height: 700px;
  }
 /*PICTURE-EXPLORE*/
+
+
+/*VIDEO-JOURNEY*/
+
+
 .videos {
-    height: 1246px;
 
 }
+.video__pagination {
+    width: 200px;
+    height: 12px;
+    left: 620px;
+    top: 1234px;
+   
+}
+.video__pagination .video__navigation  {
+    display:flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+}   
+
+/*VIDEO-JOURNEY*/
 .art-gallery {
  height: 2125px;
 
