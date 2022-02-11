@@ -133,6 +133,22 @@ h1,h2,h3,h4 {
     margin-bottom: 75px;
     
 }
+.monalisa .description__button {
+    width: 360px;
+    height: 75px;
+    border-color: #710707; 
+    background: #710707;
+    border-radius: 10px;
+    padding-left: 64px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
 
 .monalisa__pagination {
     position: relative;
@@ -533,9 +549,67 @@ h1,h2,h3,h4 {
 
 /*TICKETS*/
 
+
+/*CONTACTS*/
+
+
 .contacts {
     height: 813px;
 }
+.contacts .contacts-title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    border-bottom: 4px darkred solid;
+}
+.contacts .contacts__information   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 103px;
+}
+.contacts-tekst {
+    display: flex;
+    flex-direction: column;
+}
+.contacts__information .information__place-name { 
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+  color: #000000;
+  
+
+}
+.contacts__information .information__address {
+ 
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+
+}
+.contacts__information .information__phone {
+  
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+ 
+}
+.contacts__information .information__mail {
+
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+/*CONTACTS*/
+
 .footer {
     height: 392px;
 }
