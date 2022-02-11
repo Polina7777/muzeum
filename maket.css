@@ -22,10 +22,27 @@ h1,h2,h3,h4 {
     background-color: black;
 
 }
+
+
+/*JUST-IMAGE*/
+
+
 .wrapper_image {
-    background-image: url(/assets/image/parallax.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+.just-image__image {
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+/*JUST-IMAGE*/
+
+
 .section-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -353,17 +370,19 @@ h1,h2,h3,h4 {
 }
 
 .art-gallery .first-image__list { 
-
+    width: 33%;
     margin-top: 125px;
     padding-right: 36px;
     padding-left: 0px;
 }
 .art-gallery .second-image__list  {
+    width: 33%;
     margin-top: 75px;
     padding-right: 36px;
     padding-left: 0px;
 }
 .art-gallery .third-image__list {
+    width: 33%;
     margin-top: 125px;
     padding-left: 0px;
     
@@ -371,14 +390,148 @@ h1,h2,h3,h4 {
 .art-gallery__image {
     display: flex;
 }
+.art-gallery .list__item {
+    margin-bottom: 24px;
+}
+.art-gallery__gradient {
+
+    background-image: url(/assets/image/Gradient.png);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    max-height: 360px;
+}
+
 
 /*ART-GALLERY*/
 
 
-.tickets {
-    height: 743px;
+/*TICKETS*/
+
+.section-container.tickets {
+
+}
+.ticket {
+  display: flex;
+  flex-direction: row;
+}
+.ticket .ticket__image {
+    width: 62%;
+    max-height: 550px;
+}
+.ticket .ticket-type {
+    width: 40%;
+
+}
+.ticket .ticket-type__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+
+}
+.ticket .ticket-type {
+  
+    width: 50%;
+  
+
+}
+.ticket .ticket-type__item {
+    margin-bottom: 25px;
+}
+.ticket .ticket-type__list {
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: circle;
+}
+.tickets__title {
+    margin-bottom: 103px;
+    border-bottom: 4px darkred solid;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
   
 }
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 175px;
+    margin-bottom: 182px;
+  
+}
+.amount .amount__counter {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+ 
+}
+.amount .amount__counter .amount__title {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px;
+}
+.amount .amount__counter .amount__controls {
+    display: flex;
+    justify-content: space-between;
+    border: 3px black solid;
+    align-items: center;
+}
+.amount .amount__buy-btn {
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100%;
+}
+.amount .amount__price {
+    
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}  
+.amount__controls .amount__btn {
+    background-color:inherit ;
+    border:none;
+    font-size: 32px;
+    line-height: 37px;
+ }
+.amount__controls .amount__number {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+  }
+.amount .amount__title {
+ font-weight: bold;
+ font-size: 28px;
+ line-height: 33px;
+ margin: 0;
+}  
+
+/*TICKETS*/
 
 .contacts {
     height: 813px;
