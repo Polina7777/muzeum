@@ -553,9 +553,6 @@ h1,h2,h3,h4 {
 /*CONTACTS*/
 
 
-.contacts {
-    height: 813px;
-}
 .contacts .contacts-title {
     font-family: Forum;
     font-style: normal;
@@ -610,6 +607,74 @@ h1,h2,h3,h4 {
 }
 /*CONTACTS*/
 
-.footer {
-    height: 392px;
+
+/*FOOTER*/
+
+
 }
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.footer-wrapper__navigation {
+    display:flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 75px 10px;
+    position: relative;
+    border-bottom: 3px white solid;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.other-information {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 75px 10px;
+    position: relative;
+    padding: 20px 100px;
+    color: white;
+   
+   
+}
+.footer .footer__logo {
+    width: 195px;
+    height: 50px;
+    flex:1;
+
+  
+}
+.footer .footer__navigation {
+    display: flex;
+    flex: 2;
+  justify-content: flex-start;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    
+}
+
+.footer .social {
+   
+ background-color: black;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+.footer .social .social__type {
+    display: flex;
+    gap: 20px;
+ 
+    list-style-type: none;
+}
+
+
+/*FOOTER*/
+
+
