@@ -218,9 +218,8 @@ h1,h2,h3,h4 {
 }
 .card-list__item .item__image {
     width: 100%;
-    
     height: auto;
-
+    padding-bottom: 25px;
 }
 .card-list__item .item__description .description__name {
     display: flex;
@@ -239,7 +238,12 @@ h1,h2,h3,h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 22px;
+}
+.card-list__item .name-title {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px darkred solid;
 }
 .card-list__item  .description__link-first {
     font-weight: 100;
@@ -444,6 +448,7 @@ h1,h2,h3,h4 {
 
 }
 .ticket .ticket-type__title {
+    margin-left: 60px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -611,7 +616,7 @@ h1,h2,h3,h4 {
 /*FOOTER*/
 
 
-}
+
 .footer {
     background-color: black;
     display: flex;
@@ -628,6 +633,23 @@ h1,h2,h3,h4 {
     border-bottom: 3px white solid;
     justify-content: space-between;
     padding: 20px 100px;
+}
+.footer-wrapper__navigation .navigation__link {
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__navigation .navigation__list {
+    list-style-type: none;
+}
+.footer__navigation  .navigation__item {
+    margin-bottom: 15px;
+}
+.footer__navigation .navigation__list-second {
+    margin-left: 100px;
 }
 .other-information {
     display: flex;
